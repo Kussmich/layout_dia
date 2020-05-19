@@ -386,6 +386,89 @@ h1 {
     color: #c0cdd7;
     font-size: 13px;
     text-transform: uppercase; }
+  .testimonials__card {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    margin: 0 auto;
+    padding-top: 40px;
+    margin-bottom: 40px;
+    border-radius: 16px;
+    background-color: #fff;
+    height: 494px;
+    max-width: 314px; }
+  .testimonials__decoration {
+    position: absolute;
+    width: 139px;
+    height: 56px;
+    background-color: #2060f6;
+    border-radius: 8px;
+    -webkit-transform: rotate(-60deg);
+            transform: rotate(-60deg);
+    -webkit-transition: 1s;
+    transition: 1s; }
+    .testimonials__decoration:first-of-type {
+      top: 50px;
+      left: 7px; }
+    .testimonials__decoration:last-of-type {
+      bottom: 50px;
+      right: 7px; }
+  .testimonials__image {
+    display: block;
+    position: absolute;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+            transform: translateY(-50%);
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+    -o-object-fit: cover;
+       object-fit: cover;
+    -webkit-transition: 1s;
+    transition: 1s; }
+  .testimonials__additional {
+    position: relative;
+    margin: 0 auto 30px;
+    width: 250px;
+    height: 250px;
+    border-radius: 16px;
+    overflow: hidden;
+    -webkit-transition: 0.3s;
+    transition: 0.3s; }
+    .testimonials__additional:hover .testimonials__decoration {
+      width: 550px;
+      height: 550px; }
+    .testimonials__additional:hover .testimonials__image {
+      border-radius: 20px;
+      width: 200px;
+      height: 200px; }
+  .testimonials__quotes {
+    margin-bottom: 20px; }
+  .testimonials__text {
+    display: block;
+    margin: 0 auto;
+    width: 250px;
+    color: #6c788b;
+    font-weight: 600;
+    font-size: 13px; }
+  .testimonials__author {
+    font-size: 13px;
+    color: #253757; }
+  .testimonials__position {
+    text-transform: uppercase;
+    color: #c0cdd7;
+    font-size: 13px;
+    letter-spacing: 3px; }
 
 body {
   font-family: "Poppins", sans-serif;
