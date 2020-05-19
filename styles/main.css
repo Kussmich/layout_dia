@@ -48,7 +48,7 @@ h1 {
     display: block;
     width: 50px;
     height: 100%;
-    background-image: url(../images/logo/dia-logo.svg);
+    background-image: url(../images/logo/air-logo.svg);
     background-position: center;
     background-repeat: no-repeat; }
   .header__burger {
@@ -59,7 +59,8 @@ h1 {
     border: none;
     background-image: url(../images/button-burger.svg);
     background-position: center right;
-    background-repeat: no-repeat; }
+    background-repeat: no-repeat;
+    outline: none; }
   .header__bottom {
     margin-top: 90px; }
   .header__titles {
@@ -155,13 +156,12 @@ h1 {
   border-radius: 8px;
   border-width: 0;
   color: #fff;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
   background-color: #144ed5;
-  -webkit-box-shadow: 0 6px 23px rgba(0, 117, 255, 0.46);
-          box-shadow: 0 6px 23px rgba(0, 117, 255, 0.46);
-  -webkit-transition: background-color 0.3s ease-in-out, -webkit-box-shadow 0.3s ease-in-out;
-  transition: background-color 0.3s ease-in-out, -webkit-box-shadow 0.3s ease-in-out;
-  transition: background-color 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
-  transition: background-color 0.3s ease-in-out, box-shadow 0.3s ease-in-out, -webkit-box-shadow 0.3s ease-in-out; }
+  -webkit-transition: background-color 0.3s ease-in-out;
+  transition: background-color 0.3s ease-in-out; }
   .btn:hover {
     background-color: #1a00ac;
     -webkit-box-shadow: 0 6px 23px rgba(26, 0, 172, 0.46);
@@ -470,6 +470,104 @@ h1 {
     font-size: 13px;
     letter-spacing: 3px; }
 
+.vision {
+  background-color: #fff;
+  padding: 20px 0; }
+  .vision__title {
+    display: block;
+    margin: 0 auto;
+    max-width: 280px;
+    font-size: 24px;
+    margin-bottom: 30px;
+    color: #253757; }
+  .vision__subtitle {
+    display: block;
+    margin: 0 auto 30px;
+    max-width: 280px;
+    text-align: center;
+    color: #6c788b;
+    font-size: 13px; }
+
+.footer {
+  padding: 30px 0;
+  color: #fff;
+  background-color: #2c2c2c;
+  text-align: center; }
+  .footer__title {
+    display: block;
+    margin: 0 auto;
+    max-width: 280px;
+    margin-bottom: 30px; }
+  .footer__subtitle {
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 10px;
+    color: #c0cdd7;
+    font-size: 13px;
+    text-transform: uppercase; }
+  .footer__list {
+    margin-bottom: 0; }
+  .footer__nav-container {
+    display: none; }
+  .footer__cell:first-of-type {
+    margin-bottom: 30px; }
+  .footer__subtitles {
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 13px;
+    line-height: 19px;
+    letter-spacing: 3px;
+    opacity: 0.5; }
+  .footer__socials {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center; }
+  .footer__icon {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin: 0 20px;
+    width: 32px;
+    height: 32px; }
+    .footer__icon:hover path {
+      fill: blue;
+      -webkit-transition: 0.3s;
+      transition: 0.3s; }
+
+.form__input {
+  color: inherit;
+  width: 100%;
+  max-width: 280px;
+  padding: 0 0 16px;
+  margin-bottom: 2rem;
+  border-bottom: 1px solid #fff;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 22px; }
+  .form__input::-webkit-input-placeholder {
+    opacity: 0.7; }
+  .form__input::-moz-placeholder {
+    opacity: 0.7; }
+  .form__input:-ms-input-placeholder {
+    opacity: 0.7; }
+  .form__input::-ms-input-placeholder {
+    opacity: 0.7; }
+  .form__input::placeholder {
+    opacity: 0.7; }
+  .form__input:focus {
+    outline: none;
+    border-color: #144ed4; }
+
 body {
   font-family: "Poppins", sans-serif;
   margin: 0;
@@ -486,5 +584,9 @@ ul {
 
 a {
   text-decoration: none; }
+
+input {
+  background-color: transparent;
+  border: none; }
 
 /*# sourceMappingURL=main.css.map */
