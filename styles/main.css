@@ -435,7 +435,8 @@ a {
   text-align: center; }
   .process__preview {
     max-width: 280px;
-    margin: 0 auto 30px; }
+    margin: 0 auto 30px;
+    padding-left: 20px; }
   .process__title {
     margin-top: 0;
     color: #253757; }
@@ -466,8 +467,8 @@ a {
     font-size: 13px;
     text-align: left;
     margin-bottom: 15px; }
-    .process__description li {
-      margin-bottom: 5px; }
+  .process__item {
+    margin-bottom: 5px; }
   .process__button {
     display: block;
     height: 40px;
