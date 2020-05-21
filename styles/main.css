@@ -365,10 +365,13 @@ a {
   .about__title {
     color: #253757; }
   .about__content {
-    color: #6c788b;
     display: block;
     margin: 0 auto;
-    max-width: 280px; }
+    max-width: 280px;
+    color: #6c788b;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 150%; }
 
 @media screen and (min-width: 960px) {
   .about {
