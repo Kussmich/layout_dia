@@ -627,30 +627,14 @@ a {
     margin: 0 auto;
     max-width: 280px;
     margin-bottom: 30px;
-    color: #253757; }
+    color: #253757;
+    line-height: 50px; }
   .testimonials__subtitle {
     display: block;
     margin: 0 auto 10px;
     color: #c0cdd7;
     font-size: 13px;
     text-transform: uppercase; }
-  .testimonials__card {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    margin: 0 auto 40px;
-    padding-top: 40px;
-    height: 494px;
-    max-width: 314px;
-    border-radius: 16px;
-    background-color: #fff; }
   .testimonials__decoration {
     position: absolute;
     width: 139px;
@@ -683,6 +667,30 @@ a {
        object-fit: cover;
     -webkit-transition: 1s;
     transition: 1s; }
+  .testimonials__card {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    margin: 0 auto 40px;
+    padding-top: 40px;
+    height: 494px;
+    max-width: 314px;
+    border-radius: 16px;
+    background-color: #fff; }
+    .testimonials__card:hover .testimonials__decoration {
+      width: 550px;
+      height: 550px; }
+    .testimonials__card:hover .testimonials__image {
+      border-radius: 20px;
+      width: 200px;
+      height: 200px; }
   .testimonials__additional {
     position: relative;
     margin: 0 auto 30px;
@@ -692,13 +700,6 @@ a {
     overflow: hidden;
     -webkit-transition: 0.3s;
     transition: 0.3s; }
-    .testimonials__additional:hover .testimonials__decoration {
-      width: 550px;
-      height: 550px; }
-    .testimonials__additional:hover .testimonials__image {
-      border-radius: 20px;
-      width: 200px;
-      height: 200px; }
   .testimonials__quotes {
     margin-bottom: 20px; }
   .testimonials__text {
